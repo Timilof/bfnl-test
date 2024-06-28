@@ -1,0 +1,12 @@
+body {
+	font-family: "Josefin Sans", "Roboto", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 18px;
+	text-align: left;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
