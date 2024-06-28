@@ -26,9 +26,9 @@ const Venues = () => {
 				}
 				const data = await response.json();
 				setVenues(data);
-				setLoading(false);
 			} catch (error) {
 				setError(error);
+			} finally {
 				setLoading(false);
 			}
 		};
@@ -46,8 +46,6 @@ const Venues = () => {
 
 		setFilteredVenues(locationResults);
 	}, [cityFilter, venues]);
-
-	console.log(venues);
 
 	return (
 		<div>
